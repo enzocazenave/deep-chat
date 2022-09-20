@@ -1,0 +1,30 @@
+{
+  "name": "deep-chat",
+  "version": "1.0.0",
+  "description": "It's a chat developed with sockets. The word deep make reference to the deep web.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzocazenave/deep-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzocazenave/deep-chat/issues"
+  },
+  "homepage": "https://github.com/enzocazenave/deep-chat#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.2"
+  }
+}
