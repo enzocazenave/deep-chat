@@ -1,7 +1,11 @@
 # deep-chat
 It's a chat developed with sockets. The word deep make reference to the deep web.
 
-# Client directory
+
+
+# Build Setup
+
+## Client directory
 ``` bash
     # install dependencies
     cd client
@@ -11,7 +15,7 @@ It's a chat developed with sockets. The word deep make reference to the deep web
     npm start
 ```
 
-# Main directory
+## Main directory
 ``` bash
     npm install
 
